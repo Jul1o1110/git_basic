@@ -1,0 +1,11 @@
+body{
+    background-color: lightgray;
+}
+p{
+    color:white;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+} 
