@@ -1,0 +1,79 @@
+body {
+    background-color:#F2ECE4 ;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.whatsapp-logo {
+  position: fixed; /* Fija el elemento en la ventana del navegador */
+  bottom: 20px;    
+  right: 20px;     
+  z-index: 1000;   
+  width: 60px;     
+  height: auto;    
+  border-radius: 50%; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+.form-select {
+    background-color: #24261E;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Cm1 {
+    margin: 0 auto; /* Centra la imagen */
+    cursor: pointer; /* Cambia el cursor a una manita para indicar que es clickeable */
+    border: 3px solid #24261E;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    
+}
+#Cm1:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+    border-color: #BFBDB4; /* Cambia el color del borde al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Aumenta la sombra al pasar el mouse */
+}
+#bnr{
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;  
+    cursor: pointer;
+    border: 3px solid #24261E;
+        
+}
+#bnr:hover{
+    transform: scale(1.1);
+    border-color:#24261E ;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+#mensaje{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #24261E;
+    padding: 10px;
+}
+#btn{
+    width: 100px;
+    position: relative;
+    color: #24261E;
+}
+#msj{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #24261E;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 3px solid #24261E;
+    text-align: center;
+}
+.img-prenda {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
